@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #1E1E1E;
   min-height: 100vh;
+  padding-left: 20vh;
 }
 
 .App-logo {
@@ -24,7 +25,8 @@
 }
 
 .Text-default {
-  color: #E3E3E3
+  color: #E3E3E3;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
@@ -36,6 +38,7 @@
   }
 }
 
-.Button-topnav {
-  text: #E3E3E3;
+.Link-default {
+  color: #E3E3E3;
+  font-weight: bold;
 }
