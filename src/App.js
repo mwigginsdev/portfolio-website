@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from 'react';
 import Layout from "./pages/Layout"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
@@ -11,6 +11,9 @@ import NoPage from "./pages/NoPage"
 import theme from "./Theme"
 
 function App() {
+  useEffect(() => {
+    document.title = 'Wiggins.dev - Matt Wiggins';
+  }, []);
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
