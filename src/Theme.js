@@ -8,8 +8,7 @@ const theme = createTheme({
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     },
-    secondary: {
-      light: '#0066ff',
+    text: {
       main: '#E3E3E3',
       // dark: will be calculated from palette.secondary.main,
       contrastText: '#ffcc00',
@@ -18,10 +17,28 @@ const theme = createTheme({
     // custom colors for props in Material UI's components.
     // Then you will be able to use it like this: `<Button color="custom">`
     // (For TypeScript, you need to add module augmentation for the `custom` value)
-    custom: {
-      light: '#ffa726',
-      main: '#f57c00',
-      dark: '#ef6c00',
+    cyan: {
+      light: '#AEDEEA',
+      main: '#38AECC',
+      dark: '#38AECC',
+      contrastText: 'rgba(0, 0, 0, 0.87)',
+    },
+    orange: {
+      light: '#FFAC70',
+      main: '#FF9B54',
+      dark: '#FF9B54',
+      contrastText: 'rgba(0, 0, 0, 0.87)',
+    },
+    coral: {
+      light: '#FFB499',
+      main: '#FF7F51',
+      dark: '#FF7F51',
+      contrastText: 'rgba(0, 0, 0, 0.87)',
+    },
+    amaranth: {
+      light: '#E28D9A',
+      main: '#CE4257',
+      dark: '#CE4257',
       contrastText: 'rgba(0, 0, 0, 0.87)',
     },
     // Used by `getContrastText()` to maximize the contrast between

@@ -1,4 +1,5 @@
 import useCheckMobileScreen from "../hooks/useCheckMobileScreen";
+import Link from "@mui/material/Link"
 
 
 export default function About() {
@@ -19,7 +20,7 @@ export default function About() {
             I'm also attending the University of Illinois for a Master's in CS because I have a passion for learning and teaching.
           </p>
           <p class="Text-default">
-          Check out what I've been building in the <a class="Link-default" href="https://www.wiggins.dev/work">Work</a> or <a class="Link-default" href="https://www.wiggins.dev/projects">Projects</a> pages!
+          Check out what I've been building in the <Link color="cyan.main" href="https://www.wiggins.dev/#/work">Work</Link> or <Link color="cyan.main" href="https://www.wiggins.dev/#/projects">Projects</Link> pages!
           </p>
         </div>
       </div>
